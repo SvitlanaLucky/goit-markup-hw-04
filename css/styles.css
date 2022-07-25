@@ -162,9 +162,19 @@ img {
     color: var(--accent-color);
 }
 
+.phone-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 .mail:hover,
 .mail:focus {
     color: var(--accent-color);
+}
+
+.mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 /* ------------------ hero -------------*/
