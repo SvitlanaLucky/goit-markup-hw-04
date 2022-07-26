@@ -7,6 +7,7 @@
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
     --main-color: #FFFFFF;
+    --icon-color: #afb1b8
 }
 
 h1, h2, h3, h4, p {
@@ -349,7 +350,7 @@ img {
 }
 
 .social-list-icon {
-    fill: #afb1b8;
+    fill: var(--icon-color);
 }
 
 .social-list-link:hover,
@@ -361,6 +362,39 @@ img {
 .social-list-link:focus .social-list-icon {
     fill: var(--main-color);
 }
+
+/* -------------- client -------------- */
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.client-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+}
+
+.client-icon {
+    fill: var(--icon-color);
+}
+
+.client-item:hover,
+.client-item:focus {
+    border-color: var(--accent-color);
+}
+
+.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill: var(--accent-color);
+}
+
+
     
 /* ------------ footer ------------ */
 
